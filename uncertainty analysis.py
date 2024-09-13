@@ -20,7 +20,7 @@ if __name__ == "__main__":
     
     data_names = ['glass']
     n_bins = 20
-    n_it = 5
+    n_it = 2
     K = 5
     det_evaluations = np.zeros((len(data_names), n_bins))
     recall_evaluations = np.zeros((len(data_names), n_bins))
