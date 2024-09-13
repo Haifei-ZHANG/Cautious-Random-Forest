@@ -26,7 +26,7 @@ if __name__ == "__main__":
     noise_levels = [0, 0.1, 0.2, 0.3, 0.4, 0.5]
     it = 2
     K = 5
-    n_tree = 50
+    n_tree = 100
     for noise_level in noise_levels:
         total_evaluation_mean = np.zeros((len(criteria), len(data_names), len(combinations)))
         total_evaluation_std = np.zeros((len(criteria), len(data_names), len(combinations)))
